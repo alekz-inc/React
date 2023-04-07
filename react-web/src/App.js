@@ -3,9 +3,16 @@ import './App.css';
 
 function App() {
   return (
-    <div className="container">
-      <p className="text">Alex Gabriel</p>
-    </div>
+    <nav className='navbar'>
+      <div className="logo">
+        <a href="#">Alex Gabriel</a>
+      </div>
+      <ul>
+        <li className="link">Home</li>
+        <li className="link">Gallery</li>
+        <li className="link">Contact</li>
+      </ul>
+    </nav>
   );
 }
 
