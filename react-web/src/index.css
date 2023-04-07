@@ -5,10 +5,22 @@ body {
   margin: 0;
   font-family: 'Inter';
 }
+:root {
+  --black: #010101;
+  --dark: #181818;
+  --white: #ffffff;
+
+  --blue: #4169e1;
+}
 
 nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  background: var(--blue);
+  padding: 1em;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 nav ul {
@@ -18,4 +30,14 @@ nav ul {
 
 nav ul li {
   list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.logo a {
+  text-decoration: none;
+  color: var(--black);
 }

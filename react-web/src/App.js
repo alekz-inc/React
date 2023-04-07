@@ -8,9 +8,9 @@ function App() {
         <a href="#">Alex Gabriel</a>
       </div>
       <ul>
-        <li className="link">Home</li>
-        <li className="link">Gallery</li>
-        <li className="link">Contact</li>
+        <li className="link"><a href="#">Home</a></li>
+        <li className="link"><a href="#">Gallery</a></li>
+        <li className="link"><a href="#">Contact</a></li>
       </ul>
     </nav>
   );
